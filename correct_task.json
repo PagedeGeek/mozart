@@ -1,0 +1,11 @@
+{
+  "in": "60s",
+  "do": "http_request",
+  "timeout": "15s",
+  "params": {
+    "url": "http://localhost:4000/task_executed",
+    "verb": "POST",
+    "header": { "X-Auth-Token": "MY_TOKEN" },
+    "json_body": { "foo": "bar", "number": 123 }
+  }
+}
