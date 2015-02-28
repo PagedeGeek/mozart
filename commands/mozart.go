@@ -1,6 +1,6 @@
 package main
 
-import "mozart"
+import "github.com/pagedegeek/mozart"
 
 func main() {
 
