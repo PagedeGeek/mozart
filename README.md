@@ -3,11 +3,11 @@ Mozart: simple scheduler
 
 ## Run
 
-  $ go run src/github.com/PagedeGeek/mozart/commands/mozart.go
+    $ go run src/github.com/PagedeGeek/mozart/commands/mozart.go
 
 ## Use
 
-  $ curl -i -X POST http://localhost:1357/tasks/schedule --data @./correct_task.json
+    $ curl -i -X POST http://localhost:1357/tasks/schedule --data @./correct_task.json
 
 correct_task.json
 ```json
@@ -24,13 +24,13 @@ correct_task.json
 }
 ```
 
-  $ curl -i -X POST http://localhost:1357/tasks/schedule --data @./correct_task.json
+    $ curl -i -X POST http://localhost:1357/tasks/schedule --data @./correct_task.json
 
-  $ curl -i http://localhost:1357/tasks/count
+    $ curl -i http://localhost:1357/tasks/count
 
-  $ curl -i http://localhost:1357/tasks
+    $ curl -i http://localhost:1357/tasks
 
-  $ curl -i -X DELETE http://localhost:1357/tasks/unschedule/e4fcbde6-8abd-4a32-865f-885376d80bc6
+    $ curl -i -X DELETE http://localhost:1357/tasks/unschedule/e4fcbde6-8abd-4a32-865f-885376d80bc6
 
 or read files:
 - mozart_client.rb
